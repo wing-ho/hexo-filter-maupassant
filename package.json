@@ -1,8 +1,8 @@
 {
   "name": "maupassant-hexo-adapter",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "hexo-renderer-org adapter for maupassant theme",
-  "main": "index.js",
+  "main": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

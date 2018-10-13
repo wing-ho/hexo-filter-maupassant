@@ -22,7 +22,4 @@ function adapter(str){
   return $.html();
 }
 
-hexo.extend.filter.register('after_render:html', function(str,data){
-  console.log("hello world");
-  return str;
-});
+hexo.extend.filter.register('after_render:html', adapter);
