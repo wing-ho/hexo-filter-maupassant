@@ -6,7 +6,7 @@ function adapter(str){
     lowerCaseTags: false,
     decodeEntities: false
   });
-  console.log("hello world")
+  //修改org-mode生成的table-of-contents的dom以适配maupassant主题
   let toc = $("#table-of-contents").attr("id","toc").addClass("toc-article");
   let title = $("#toc").children("h2")
   title.replaceWith($('<div class="toc-title">'+title.html()+'</div>'));
@@ -18,6 +18,8 @@ function adapter(str){
     arguments.callee(sub.children("ul,ol").addClass("toc-child"),level+1);
   })($("#text-table-of-contents",toc).children("ul,ol").addClass("toc"),2);
   toc.insertBefore(".post-content").wrap('<div class="clear"></div>')
+  //修改图片或表格的标题的class
+  $(".figure").attr("class","caption");
   return $.html();
 }
 
