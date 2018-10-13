@@ -1,4 +1,3 @@
-'use strict'
 const cheerio = require('cheerio');
 function adapter(str){
   let $= cheerio.load(str,{
