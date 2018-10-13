@@ -1,0 +1,24 @@
+{
+  "name": "maupassant-hexo-adapter",
+  "version": "1.0.0",
+  "description": "hexo-renderer-org adapter for maupassant theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wing-ho/maupassant-hexo-adapter.git"
+  },
+  "keywords": [
+    "maupassant",
+    "hexo",
+    "adapter"
+  ],
+  "author": "wing-ho",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/wing-ho/maupassant-hexo-adapter/issues"
+  },
+  "homepage": "https://github.com/wing-ho/maupassant-hexo-adapter#readme"
+}
